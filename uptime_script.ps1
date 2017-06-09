@@ -2,6 +2,7 @@
 # there a number of ways to do this, this is just one of them. the script will write error messages if an object is not
 # found in the AD but it will continue to run.
 #
+# use and run at your own risk!# 
 
 Function Get-WmiCustom([string]$ComputerName, [string]$Namespace = "root\cimv2", [string]$Class, [int]$Authentication = -1, [string]$Filter = "", [int]$Timeout = 15)
 
